@@ -2,7 +2,7 @@ var gsw = ee.Image("JRC/GSW1_2/GlobalSurfaceWater");
 var admin2 = ee.FeatureCollection("FAO/GAUL_SIMPLIFIED_500m/2015/level2");
 var hydrosheds = ee.Image("WWF/HydroSHEDS/03VFDEM");
     var beforeStart = '2018-07-15'
-var beforeEnd = '2018-08-10'
+var beforeEnd = '2018-08-10' ////////////////////////////////////////////////
 var afterStart = '2018-08-10'
 var afterEnd = '2018-08-23'
 
